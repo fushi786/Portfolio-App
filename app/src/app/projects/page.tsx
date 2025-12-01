@@ -18,14 +18,14 @@ export default function ProjectsPage() {
           liveUrl="https://gen-ai-cv.vercel.app/"
           codeUrl="https://github.com/fushi786/GenAI-CV"
         />
-        <ProjectCard
-          title="Habit tracker"
-          subtitle="Full‑stack app"
-          description="Secure habit tracker with Supabase auth, RLS‑protected Postgres data, and streak analytics for daily habits."
-          tech={['Next.js', 'Supabase', 'Postgres', 'Auth']}
-          liveUrl="https://habit-tracker-nu-rosy.vercel.app/login"
-          codeUrl="https://github.com/fushi786/habit-tracker"
-        />
+<ProjectCard
+  title="Habit tracker"
+  subtitle="Full‑stack app"
+  description="Secure habit tracker with Supabase auth, RLS‑protected Postgres data, and streak analytics for daily habits. Login with test@test.com / password to explore."
+  tech={['Next.js', 'Supabase', 'Postgres', 'Auth']}
+  liveUrl="https://habit-tracker-nu-rosy.vercel.app/login"
+  codeUrl="https://github.com/fushi786/habit-tracker"
+/>
       <ProjectCard
   title="Portfolio"
   subtitle="Infra & migration"

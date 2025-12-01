@@ -30,14 +30,14 @@ export default function HomePage() {
             liveUrl="https://gen-ai-cv.vercel.app/"
             codeUrl="https://github.com/fushi786/GenAI-CV"
           />
-          <ProjectCard
-            title="Habit tracker"
-            subtitle="Full‑stack app"
-            description="Supabase‑backed habit tracker with auth, daily logs, streak analytics, and TailorCV‑style design."
-            tech={['Next.js', 'Supabase', 'Postgres', 'Auth']}
-            liveUrl="https://habit-tracker-nu-rosy.vercel.app/login"
-            codeUrl="https://github.com/fushi786/habit-tracker"
-          />
+<ProjectCard
+  title="Habit tracker"
+  subtitle="Full‑stack app"
+  description="Supabase‑backed habit tracker with auth, daily logs, streak analytics, and TailorCV‑style design. Try it with test@test.com / password."
+  tech={['Next.js', 'Supabase', 'Postgres', 'Auth']}
+  liveUrl="https://habit-tracker-nu-rosy.vercel.app/login"
+  codeUrl="https://github.com/fushi786/habit-tracker"
+/>
 <ProjectCard
   title="Portfolio"
   subtitle="Infra & migration"
