@@ -48,19 +48,20 @@ export function Hero() {
       </div>
 
       <aside className="space-y-3 rounded-2xl border border-white/10 bg-slate-900/70 p-4 shadow-lg shadow-slate-950/60">
-        <p className="text-xs font-medium uppercase tracking-[0.16em] text-slate-400">
-          Snapshot
-        </p>
-        <div className="space-y-2 text-sm">
-          <p className="text-slate-100">
-            Targeting mid‑level / senior React, full‑stack, and GenAI roles.
-          </p>
-          <p className="text-slate-300">
-            Comfortable owning features end‑to‑end: frontend, backend, infra as code,
-            and AI integrations.
-          </p>
-        </div>
-      </aside>
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-slate-400">
+    Snapshot
+  </p>
+  <div className="space-y-2 text-sm">
+    <p className="text-slate-100">
+      Seeking roles where I can own features end‑to‑end and drive impact across the stack.
+    </p>
+    <p className="text-slate-300">
+      Comfortable working across frontend, backend, cloud infrastructure, and AI integrations,
+      with a focus on serverless, automation, and reliability.
+    </p>
+  </div>
+</aside>
+
     </section>
   )
 }
