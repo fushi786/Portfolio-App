@@ -26,13 +26,14 @@ export default function ProjectsPage() {
           liveUrl="https://habit-tracker-nu-rosy.vercel.app/login"
           codeUrl="https://github.com/fushi786/habit-tracker"
         />
-        <ProjectCard
-          title="Portfolio"
-          subtitle="Infra & migration"
-          description="Containerised portfolio app using Docker and AWS (ECS/EC2) managed via Terraform, with a later migration to Vercel."
-          tech={['Next.js', 'Docker', 'AWS', 'Terraform', 'CI/CD']}
-          codeUrl="https://github.com/fushi786/Portfolio-App"
-        />
+      <ProjectCard
+  title="Portfolio"
+  subtitle="Infra & migration"
+  description="Containerised Next.js portfolio deployed on AWS with Terraform, later migrated to Vercel."
+  tech={['Next.js', 'Docker', 'AWS', 'Terraform', 'CI/CD']}
+  liveUrl="https://portfolio-app-alpha-taupe.vercel.app/"
+  codeUrl="https://github.com/fushi786/Portfolio-App"
+/>
         <ProjectCard
           title="Python game bot"
           subtitle="Realtime bot"
